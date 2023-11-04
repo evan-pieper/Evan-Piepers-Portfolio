@@ -10,7 +10,6 @@ function Header() {
               <a href="https://www.linkedin.com/in/evanpieper/">Resume</a>
           </section>
       </header>
-  
     );
 }
 
