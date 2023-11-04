@@ -1,6 +1,6 @@
 // Structural imports
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Route } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 // Styling imports
 import './styles/App.css';
@@ -11,18 +11,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Subheader />
       <main className="col" id="mainCol">
         <Router>
-          <NavLink to="/aboutMeSection">
-            <AboutMe />
-          </NavLink>
-          <NavLink to="/workSection">
-            <Work />
-          </NavLink>
-          <NavLink to="/contactSection">
-            <Contact />
-          </NavLink>
+          <Route path="/aboutMeSection" element={AboutMe} />
+          <Route path="/workSection" element={Work} />
+          <Route path="/contactSection" element={Contact} />
         </Router>
       </main>
     </div>
