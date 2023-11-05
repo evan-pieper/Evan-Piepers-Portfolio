@@ -1,6 +1,6 @@
 function Work() {
   return (
-    <section className="work row" id="workSection">
+    <section className="work col" id="workSection">
       <a href = "https://aaronh-o.github.io/tier-ranker/">
         <section className = "card" id = "firstCard">
           <h1 className = "cardTag">First Project</h1>
