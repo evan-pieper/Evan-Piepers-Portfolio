@@ -7,6 +7,7 @@
   --textColor: #105B9B;
   --specialMargin: 50px;
   display: flex;
+  flex: 1 1 100%;
 }
 body{
   display: flex;
@@ -143,6 +144,12 @@ p{
   flex-wrap: nowrap;
 }
 
+.contact{
+  height: var(--contactHeight);
+  padding: 0 10px 0 0;
+  flex-wrap: nowrap;
+}
+
 .work{
   height: var(--workHeight);
   padding: 0 10px 0 0;
@@ -191,34 +198,6 @@ p{
   white-space: nowrap;
   align-items: center;
 }
-
-.contact{
-  display: flex;
-  height: var(--contactHeight);
-  padding-right: 10px;
-  flex-wrap: nowrap;
-  font-size: 20px;
-  justify-content: end;
-}
-
-.rightCol .contact{
-  flex-wrap: nowrap;
-}
-
-.contact a{
-  flex: 1;
-  justify-content: space-between;
-  padding-right: 30px;
-  border: solid 2px;
-  text-decoration: underline;
-  font-weight: 600;
-  color: var(--textColor);
-}
-
-.contact a:visited{
-  color: var(--textColor);
-}
-
 
 /* Mobile adjustments bellow _________________________________________________________________________*/
 /*____________________________________________________________________________________________________*/
@@ -422,30 +401,5 @@ p{
       align-self: center;
       white-space: nowrap;
       align-items: center;
-  }
-  
-  .contact{
-      display: flex;
-      height: var(--contactHeight);
-      padding-right: 10px;
-      padding-left: 0;
-      margin-right: 10px;
-      flex-wrap: nowrap;
-      font-size: 15px;
-  }
-  
-  .contact a{
-      /* flex: 1 1 200px;   */
-      justify-content: space-between;
-      align-items: flex-start;
-      padding-right: 30px;
-      border: solid 2px;
-      text-decoration: underline;
-      font-weight: 600;
-      color: var(--textColor);
-  }
-  
-  .contact a:visited{
-      color: var(--textColor);
   }
 }

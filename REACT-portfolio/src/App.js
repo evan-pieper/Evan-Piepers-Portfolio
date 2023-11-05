@@ -11,8 +11,6 @@ import Header from './pages/Header';
 
 function App() {
   return (
-  <div>
-    
     <Router>
       <Header />
       <Routes> {/* Routes are the different pages of the website, each with their own path and element. Header is included in pages to keep it separate from other components */}
@@ -23,16 +21,6 @@ function App() {
         <Route path="*" element={<AboutMe />} />
       </Routes>
     </Router>
-        {/*<Router>
-        <Routes>
-          <Route path="/" element={AboutMe} />
-          <Route path="/aboutMeSection" element={AboutMe} />
-          <Route path="/workSection" element={Work} />
-          <Route path="/contactSection" element={Contact} />
-          <Route path="*" element={AboutMe} />
-        </Routes>
-  </Router>*/}
-  </div>
   );
 }
 
