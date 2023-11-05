@@ -14,7 +14,6 @@ function App() {
   <div>
     
     <Router>
-      <h1>React Router DOM</h1>
       <Header />
       <Routes> {/* Routes are the different pages of the website, each with their own path and element. Header is included in pages to keep it separate from other components */}
         <Route path="/" element={<AboutMe />} />
