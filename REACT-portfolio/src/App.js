@@ -1,6 +1,6 @@
 // Structural imports
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 // Styling imports
 import './styles/App.css';
 // Component imports
@@ -14,6 +14,8 @@ function App() {
   <div>
     
     <Router>
+      <h1>React Router DOM</h1>
+      <Header />
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="/aboutme" element={<AboutMe />} />
