@@ -4,7 +4,7 @@ import React from "react";
 
 function Header() {
     return (
-      <header className = "row" id = "header">
+      <header className = "col" id = "header">
         {/* Header element, contains navbar and subheader */}
         <Navbar />
         <Subheader />

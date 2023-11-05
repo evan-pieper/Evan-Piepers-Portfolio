@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <section id = "navbar">
+        <section className='row' id = "navbar">
             {/* Navbar links to rest of document, except for resume which redirects to a separate page (linkedin as a placeholder until separate resume page is integrated)*/}
             <Link to="/about-me">About me</Link>
             <Link to="/my-work">Work</Link>
