@@ -68,41 +68,16 @@ header{
 /*______________________________________________________________________________*/
 /* Main Content Bellow*/
 
-.mainRow{
-  display: flex;
-  flex: 1;
-}
-
-p{
-  display: flex;
-  padding-left: 100px;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .aboutMe{
   height: var(--aboutMeHeight);
-  padding: 0 10px 0 0;
-  flex-wrap: nowrap;
 }
 
 .contact{
   height: var(--contactHeight);
-  padding: 0 10px 0 0;
-  flex-wrap: nowrap;
 }
 
 .work{
   height: var(--workHeight);
-  padding: 0 10px 0 0;
-  justify-content: end;
-  flex-wrap: nowrap;
-}
-
-.rightCol .work{
-  flex-wrap: wrap;
 }
 
 .card{
@@ -119,25 +94,13 @@ p{
   opacity: 0.5;
 }
 
-#firstCard{
-  flex-wrap: wrap;
-  flex: 1;
-  flex-basis: 100%;
-  height: 400px;
-}
-
 .card:hover{
   opacity: 1;
 }
 
 .cardTag{
   background-color: lightblue;
-  margin: 0;
-  flex: 0 1 250px;
-  height: 30px;
-  flex-shrink: 0;
-  padding-left: 10px;
-  font-size: 30px;
+  font-size: 2em;
   align-self: center;
   white-space: nowrap;
   align-items: center;
