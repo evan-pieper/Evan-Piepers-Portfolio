@@ -1,7 +1,7 @@
-import AboutMe from "./AboutMe";
-import Contact from "./Contact";
-import Header from "./Header";
+import AboutMe from "../pages/AboutMe";
+import Contact from "../pages/Contact";
+import Header from "../pages/Header";
 import Subheader from "./Subheader";
-import Work from "./Work";
+import Work from "../pages/Work";
 
 export { AboutMe, Contact, Header, Subheader, Work };
