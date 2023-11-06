@@ -9,6 +9,9 @@ function Contact() {
         <label htmlFor="email">Email</label>
         <input type="email" id="email" name="email" required></input>
 
+        <label htmlFor="phone">Callback Number</label>
+        <input type="tel" id="phone" name="phone" required></input>
+
         <label htmlFor="message">Message</label>
         <textarea id="message" name="message" required></textarea>
 

@@ -1,6 +1,6 @@
 function Portfolio() {
   return (
-    <section className="work col" id="workSection">
+    <section className="portfolio row" id="workSection">
 
       <div className="left col">
         <a href = "https://aaronh-o.github.io/tier-ranker/">

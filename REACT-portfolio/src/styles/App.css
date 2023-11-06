@@ -118,7 +118,30 @@
 }
 
 
-/*_______________________________Projects bellow__________________________________________*/
+/*_______________________________Portfolio bellow__________________________________________*/
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; /* Transition effects on hover (color) */
+  width: 100%;
+  height: 20%;
+  margin: 1rem;
+}
+
+.cardTag {
+  padding: 2px 16px;
+  background-color: #001F39;
+  color: white;
+}
 
 
 /*_______________________________Contact bellow__________________________________________*/
@@ -142,6 +165,7 @@
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
+.contact-form input[type="tel"],
 .contact-form textarea {
   /* Styles all text and email input fields and the textarea the same way */
   width: 100%; /* Makes the input fields take up the full container width */
@@ -154,6 +178,7 @@
 
 .contact-form input[type="text"]:focus,
 .contact-form input[type="email"]:focus,
+.contact-form input[type="tel"]:focus,
 .contact-form textarea:focus {
   /* Styles the input fields and textarea when they are clicked on or selected */
   border-color: #0056b3; /* Changes the border color when the field is focused */
