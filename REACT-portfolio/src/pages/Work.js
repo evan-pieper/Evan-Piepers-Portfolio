@@ -17,7 +17,7 @@ function Work() {
       <div className="right col">
         <a href = "https://evan-pieper.github.io/Code-Quiz/">
           <section className = "card">
-            <h5 className = "cardTag">Third Project</h5>
+            <h5 className = "cardTag">Third Project (Need to finish)</h5>
           </section>
         </a>
         <a href = "https://github.com/evan-pieper">

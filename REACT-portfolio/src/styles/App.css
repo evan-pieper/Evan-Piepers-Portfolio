@@ -1,6 +1,7 @@
 :root{
-  --header-text-color: lightblue;
-  --header-background-color: #001F39;
+  --navbar-text-color: lightblue;
+  --navbar-background-color: #001F39;
+  font-size: 16px; /* default font size is 16, so by default 1 em is 16 px, and 1 rem is always 16px*/
 }
 
 .row {
@@ -12,13 +13,44 @@
   display: flex;
   flex-direction: column;
 }
-/*_________________________________________________________________________*/
-
-header a:visited{ /* Keeps the link color the same*/
-  color: var(--header-text-color);
-}
+/*____________________________Navbar bellow_____________________________________________*/
 
 #navbar {
-  align-items: space-between;
   justify-content: space-between;
+  align-items: center;
+  background-color: var(--navbar-background-color);
+  color: var(--navbar-text-color);
+  height: 10vh;
+}
+
+#navbar > h1, a {
+  margin: 0;
+  padding: 0;
+  color: var(--navbar-text-color);
+  font-size: 2em;
+  font-weight:normal;
+  text-decoration: none;
+}
+
+#navbar > a:last-child {
+  margin-right: 1em;
+}
+
+#navbar > h1 {
+  margin-left: 1em;
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+
+#navbar > a:hover {
+  color: white;
+}
+
+/*_______________________________About me bellow__________________________________________*/
+
+#aboutMeSection > p{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
