@@ -1,11 +1,6 @@
 :root{
-  --divider-color: #0030B9;
-  --card-color: #3399ff;
-  --aboutMeHeight: 300px;
-  --workHeight: 1100px;
-  --contactHeight: 300px;
-  --textColor: #105B9B;
-  --specialMargin: 50px;
+  --header-text-color: lightblue;
+  --header-background-color: #001F39;
 }
 
 .row {
@@ -19,89 +14,11 @@
 }
 /*_________________________________________________________________________*/
 
-
-header{
-  display: flex;
-  background-color: #001F39;
-  background-size: 100%;
-  height: 170px;
-  width: 100%;
+header a:visited{ /* Keeps the link color the same*/
+  color: var(--header-text-color);
 }
 
-
-
-#navbar{ /* mostly done */
-  font-size: 2em;
-  color: white;
-  height: 100px;
-  align-items: center;
-  justify-content: end;
-}
-
-#navbar a{
-  padding: 10px;
-  flex-grow: 1;
-  color: lightblue;
-}
-
-#navbar a:visited {
-  color: lightblue;
-}
-
-#subheader{  /*mostly done */
-  background-image: url("./images/header-image-2.jpg");
-  background-size: cover;
-  font-size: 2em;
-  height: 100px;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-}
-
-#subheader_subtitle{         /* mostly done */
-  background-color: lightblue;
-  color: white;
-  padding: .1em 1em;
-}
-
-
-/*______________________________________________________________________________*/
-/* Main Content Bellow*/
-
-.aboutMe{
-  height: var(--aboutMeHeight);
-}
-
-.contact{
-  height: var(--contactHeight);
-}
-
-.work{
-  height: var(--workHeight);
-}
-
-.card{
-  display:flex;
-  flex-wrap: wrap;
-  margin: 10px;
-  flex: 1;
-  border: solid 3px #2C3C4A;
-  height: 150px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  background-image: url("./images/placeholder.png");
-  background-color: grey;
-  opacity: 0.5;
-}
-
-.card:hover{
-  opacity: 1;
-}
-
-.cardTag{
-  background-color: lightblue;
-  font-size: 2em;
-  align-self: center;
-  white-space: nowrap;
-  align-items: center;
+#navbar {
+  align-items: space-between;
+  justify-content: space-between;
 }
