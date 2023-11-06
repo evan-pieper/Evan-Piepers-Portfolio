@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/week-20-REACT-portfolio/static/css/main.fe9fa388.css",
-    "main.js": "/week-20-REACT-portfolio/static/js/main.870745a1.js",
+    "main.css": "/week-20-REACT-portfolio/static/css/main.104cef3b.css",
+    "main.js": "/week-20-REACT-portfolio/static/js/main.604c3e9e.js",
     "static/js/787.30237536.chunk.js": "/week-20-REACT-portfolio/static/js/787.30237536.chunk.js",
-    "static/media/header-image-2.jpg": "/week-20-REACT-portfolio/static/media/header-image-2.ea5e9cacbfcbc5719e37.jpg",
+    "static/media/aboutMePic.jpg": "/week-20-REACT-portfolio/static/media/aboutMePic.145e91635049ae4a1c31.jpg",
+    "static/media/stackOverflowLogo.png": "/week-20-REACT-portfolio/static/media/stackOverflowLogo.c05942f9a7149335f4b8.png",
     "index.html": "/week-20-REACT-portfolio/index.html",
-    "main.fe9fa388.css.map": "/week-20-REACT-portfolio/static/css/main.fe9fa388.css.map",
-    "main.870745a1.js.map": "/week-20-REACT-portfolio/static/js/main.870745a1.js.map",
+    "main.104cef3b.css.map": "/week-20-REACT-portfolio/static/css/main.104cef3b.css.map",
+    "main.604c3e9e.js.map": "/week-20-REACT-portfolio/static/js/main.604c3e9e.js.map",
     "787.30237536.chunk.js.map": "/week-20-REACT-portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe9fa388.css",
-    "static/js/main.870745a1.js"
+    "static/css/main.104cef3b.css",
+    "static/js/main.604c3e9e.js"
   ]
 }
