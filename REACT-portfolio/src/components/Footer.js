@@ -8,7 +8,7 @@ function Footer() {
     return (
         <section className='row' id = "footer">
             {/* Footer has 3 png logos that link to corresponding external pages*/}
-            <Link to=""><img src={githubLogo} alt="Github logo" className="logo" /></Link>
+            <Link to=""><img src={githubLogo} alt="Github logo" className="logo" id="githubFooter"/></Link>
             <Link to=""><img src={linkedinLogo} alt="Linkedin logo" className="logo" /></Link>
         </section>
     );

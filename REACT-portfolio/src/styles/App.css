@@ -91,8 +91,16 @@
   margin: 0 1rem; /* Adds space between the logos */
 }
 
+#githubFooter {
+  filter: invert(50%); /* Makes the GitHub logo white */
+}
+
 .logo:hover {
   filter: none; /* Restores original logo colors on hover */
+}
+
+#githubFooter:hover {
+  filter: invert(0); /* Makes the GitHub logo black on hover */
 }
 
 
