@@ -1,10 +1,32 @@
 function Resume() {
     return (
-      <section className="Resume col" id="contactSection">
-        <a href = "tel:661-993-2502">(661)-993-2502</a>
-        <a href = "mailto:evanjpieper@gmail.com">evanjpieper@gmail.com</a>
-        <a href = "https://github.com/evan-pieper">https://github.com/evan-pieper</a>
-        <a href = "https://www.linkedin.com/in/evanpieper/">https://www.linkedin.com/in/evanpieper/</a>
+      <section className="resume col" id="resumeSection">
+        <h1 id="resumeTitle">Resume</h1>
+        <div className="row" id="resumeRow">
+          <h2>Download my </h2><a href = "https://www.linkedin.com/in/evanpieper/">resume</a>
+        </div>
+        <div className="col" id="frontendCol">
+          <h2>Front-end Proficiencies</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div className="col" id="backendCol">
+          <h2>Front-end Proficiencies</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
       </section>
     );
 }
