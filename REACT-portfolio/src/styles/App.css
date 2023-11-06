@@ -128,13 +128,29 @@
   margin: 1rem;
 }
 
+.portfolio > .col {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* This will ensure both columns take up equal space */
+  gap: 1rem; /* Adjust the gap between cards if necessary */
+}
+
+.portfolio > .left {
+  margin-right: 2rem;
+}
+
+.portfolio > .right {
+  margin-left: 2rem;
+}
+
 .card {
-  /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s; /* Transition effects on hover (color) */
-  width: 100%;
-  height: 20%;
-  margin: 1rem;
+  transition: 0.3s;
+  background-color: #f3f3f3;
+  color: #333;
+  margin-bottom: 1rem; /* Adds a margin at the bottom of each card */
+  width: 100%; /* Sets the width of the card to 100% of its container (the col) */
+  height: 25vh;
 }
 
 .cardTag {
