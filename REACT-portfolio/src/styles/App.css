@@ -222,6 +222,10 @@
   color: #666; /* Sets the text color of the label */
 }
 
+.error-message {
+  color: red; /* Sets the text color of error messages */
+}
+
 .contact-form button[type="submit"] {
   /* Styles the submit button */
   width: 100%; /* Makes the button take up the full container width */
@@ -237,6 +241,12 @@
 .contact-form button[type="submit"]:hover {
   /* Styles the button when the mouse hovers over it */
   background-color: #003d82; /* Darkens the button background color on hover */
+}
+
+.contact-form button[type="submit"]:disabled {
+  background: grey;
+  color: #ccc;
+  cursor: not-allowed;
 }
 
 /*_______________________________Resume Bellow__________________________________________*/
