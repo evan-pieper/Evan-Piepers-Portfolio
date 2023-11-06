@@ -1,7 +1,10 @@
 :root{
-  --navbar-text-color: lightblue;
+  --navbar-text-color: #f9f9f9;
   --navbar-background-color: #001F39;
-  font-size: 16px; /* default font size is 16, so by default 1 em is 16 px, and 1 rem is always 16px*/
+  font-size: 16px;
+  /* default font size is 16, so by default 1 em is 16 px, and 1 rem is always 16px*/
+  background-color: lightblue;
+  color: #001F39;
 }
 
 .row {
@@ -17,6 +20,7 @@
 
 #navbar {
   position: sticky;
+  top: 0;
   justify-content: space-between;
   align-items: center;
   background-color: var(--navbar-background-color);
@@ -65,4 +69,75 @@
 #aboutMeSection > h2{
   font-size: 2em;
   font-weight: bolder;
+}
+
+/*_______________________________Projects bellow__________________________________________*/
+
+
+/*_______________________________Contact bellow__________________________________________*/
+
+.contact-form {
+  /* Styles the overall form container */
+  max-width: 500px; /* Sets the maximum width of the form */
+  margin: 2rem auto; /* Centers the form on the page and adds space around it */
+  padding: 2rem; /* Adds space inside the form, between the border and content */
+  background: #f9f9f9; /* Sets the background color of the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the form */
+}
+
+.contact-form h2 {
+  /* Styles the heading inside the form */
+  text-align: center; /* Centers the text */
+  margin-bottom: 1rem; /* Adds space below the heading */
+  color: #333; /* Sets the text color */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  /* Styles all text and email input fields and the textarea the same way */
+  width: 100%; /* Makes the input fields take up the full container width */
+  padding: 0.5rem; /* Adds padding inside the input fields */
+  margin-bottom: 1rem; /* Adds space below each input field */
+  border: 1px solid #ddd; /* Adds a border with a light grey color */
+  border-radius: 4px; /* Rounds the corners of the input fields */
+  box-sizing: border-box; /* Ensures padding does not affect the overall width */
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  /* Styles the input fields and textarea when they are clicked on or selected */
+  border-color: #0056b3; /* Changes the border color when the field is focused */
+  outline: none; /* Removes the default focus outline */
+}
+
+.contact-form textarea {
+  /* Additional styles for the textarea only */
+  height: 150px; /* Sets a fixed height for the textarea */
+  resize: vertical; /* Allows the textarea to be resizable vertically */
+}
+
+.contact-form label {
+  /* Styles all labels */
+  display: block; /* Makes the label take up its own line */
+  margin-bottom: 0.5rem; /* Adds space below the label */
+  color: #666; /* Sets the text color of the label */
+}
+
+.contact-form button[type="submit"] {
+  /* Styles the submit button */
+  width: 100%; /* Makes the button take up the full container width */
+  padding: 1rem; /* Adds padding inside the button */
+  border: none; /* Removes the default button border */
+  border-radius: 4px; /* Rounds the corners of the button */
+  background-color: #0056b3; /* Sets the background color of the button */
+  color: white; /* Sets the text color of the button */
+  cursor: pointer; /* Changes the cursor to indicate the button is clickable */
+  transition: background-color 0.3s ease; /* Animates the background color change */
+}
+
+.contact-form button[type="submit"]:hover {
+  /* Styles the button when the mouse hovers over it */
+  background-color: #003d82; /* Darkens the button background color on hover */
 }
