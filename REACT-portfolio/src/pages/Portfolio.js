@@ -1,5 +1,5 @@
 import React from "react";
-import GithubLogoLink from "../components/GithubLogoLink";
+//import GithubLogoLink from "../components/GithubLogoLink";
 
 function Portfolio() {
   return (
