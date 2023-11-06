@@ -1,4 +1,4 @@
-function Work() {
+function Portfolio() {
   return (
     <section className="work col" id="workSection">
 
@@ -30,4 +30,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default Portfolio;
