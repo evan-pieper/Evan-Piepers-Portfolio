@@ -17,14 +17,13 @@ function Resume() {
           </ul>
         </div>
         <div className="col" id="backendCol">
-          <h2>Front-end Proficiencies</h2>
+          <h2>Back-end Proficiencies</h2>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>JQuery</li>
-            <li>React</li>
-            <li>Bootstrap</li>
+            <li>mySQL</li>
+            <li>mongoDB</li>
+            <li>mongoose</li>
+            <li>PWAs</li>
+            <li>Restful APIs</li>
           </ul>
         </div>
       </section>

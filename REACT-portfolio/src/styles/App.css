@@ -261,8 +261,8 @@
   align-items: center;
 }
 
-#resumeRow > a, h2 {
-  margin: .5rem;
+#resumeRow > a, #resumeRow > h2 {
+  margin: .35rem;
   font-size: 2em;
   font-weight: bold;
   color: #001F39;
