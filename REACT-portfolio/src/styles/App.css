@@ -7,6 +7,18 @@
   color: #001F39;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* 100vh is 100% of the viewport height */
+}
+
+.mainContent {
+  flex: 1;
+  /* flex: 1 means that the mainContent will take up all the space left after the navbar and footer */
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -58,6 +70,30 @@
 .active {
   color: white;
 }
+
+/*____________________________Footer bellow_____________________________________________*/
+
+#footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center; /* Centers the logos horizontally */
+  align-items: center; /* Centers the logos vertically */
+  padding: 1rem; /* Adds some padding around the logos */
+  background-color: #f8f9fa; /* Sets the footer background color, if needed */
+}
+
+.logo {
+  filter: grayscale(100%); /* Makes the logos grey */
+  width: 50px; /* Sets a fixed width; adjust as needed */
+  height: auto; /* Keeps the aspect ratio of the images */
+  margin: 0 1rem; /* Adds space between the logos */
+}
+
+.logo:hover {
+  filter: none; /* Restores original logo colors on hover */
+}
+
 
 /*_______________________________About me bellow__________________________________________*/
 

@@ -16,14 +16,16 @@ function App() {
     <Router>
       <div className="App col">
         <Navbar/>
-        <Routes> {/* Routes are the different pages of the website, each with their own path and element. Header is included in pages to keep it separate from other components */}
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<AboutMe />} />
-        </Routes>
+        <div className="mainContent col" id="mainContent">
+          <Routes> {/* Routes are the different pages of the website, each with their own path and element. Header is included in pages to keep it separate from other components */}
+            <Route path="/" element={<AboutMe />} />
+            <Route path="/about-me" element={<AboutMe />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="*" element={<AboutMe />} />
+          </Routes>
+        </div>
         <Footer/>
       </div>
     </Router>
