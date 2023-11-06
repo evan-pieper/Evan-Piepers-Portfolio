@@ -80,7 +80,6 @@
   justify-content: center; /* Centers the logos horizontally */
   align-items: center; /* Centers the logos vertically */
   padding: 1rem; /* Adds some padding around the logos */
-  background-color: #f8f9fa; /* Sets the footer background color, if needed */
 }
 
 .logo {
