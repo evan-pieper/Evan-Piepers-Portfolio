@@ -1,10 +1,16 @@
 function Contact() {
     return (
       <section className="contact col" id="contactSection">
-        <a href = "tel:661-993-2502">(661)-993-2502</a>
-        <a href = "mailto:evanjpieper@gmail.com">evanjpieper@gmail.com</a>
-        <a href = "https://github.com/evan-pieper">https://github.com/evan-pieper</a>
-        <a href = "https://www.linkedin.com/in/evanpieper/">https://www.linkedin.com/in/evanpieper/</a>
+        <form>
+          <div className="form-group">
+            <label htmlFor="nameInput">Name</label>
+            <input type="text" className="form-control" id="nameInput" placeholder="Name"></input>
+          </div>
+          <div className="form-group">
+            <label htmlFor="emailInput">Email address</label>
+            <input type="email" className="form-control" id="emailInput" placeholder="example@email.com"></input>
+          </div>
+        </form>
       </section>
     );
 }

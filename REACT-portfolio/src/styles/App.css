@@ -16,6 +16,7 @@
 /*____________________________Navbar bellow_____________________________________________*/
 
 #navbar {
+  position: sticky;
   justify-content: space-between;
   align-items: center;
   background-color: var(--navbar-background-color);
@@ -59,6 +60,9 @@
 #aboutMeSection > p{
   font-size: 1.5em;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
+}
+
+#aboutMeSection > h2{
+  font-size: 2em;
+  font-weight: bolder;
 }
