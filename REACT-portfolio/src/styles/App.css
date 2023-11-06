@@ -43,6 +43,14 @@
 }
 
 #navbar > a:hover {
+  color: grey;
+}
+
+#navbar >a.activeLink {
+  color: white;
+}
+
+.active {
   color: white;
 }
 
