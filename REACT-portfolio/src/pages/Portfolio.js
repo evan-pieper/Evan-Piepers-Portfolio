@@ -1,3 +1,6 @@
+import React from "react";
+import GithubLogoLink from "../components/GithubLogoLink";
+
 function Portfolio() {
   return (
     <section className="portfolio row" id="workSection">
@@ -6,6 +9,7 @@ function Portfolio() {
         <a href = "https://aaronh-o.github.io/tier-ranker/">
           <section className = "card" id = "firstCard">
             <h1 className = "cardTag">Tier Ranker</h1>
+            
           </section>
         </a>
         <a href = "https://powerful-stream-45360-1940a41a4b54.herokuapp.com/login">
@@ -13,11 +17,21 @@ function Portfolio() {
             <h1 className = "cardTag">Cro-X</h1>
           </section>
         </a>
+        <a href = "https://evan-pieper.github.io/Code-Quiz/">
+          <section className = "card">
+            <h1 className = "cardTag">Placeholder</h1>
+          </section>
+        </a>
       </div>
       <div className="right col">
         <a href = "https://evan-pieper.github.io/Code-Quiz/">
           <section className = "card">
             <h1 className = "cardTag">Spell/Craft</h1>
+          </section>
+        </a>
+        <a href = "https://github.com/evan-pieper">
+          <section className = "card">
+            <h1 className = "cardTag">Placeholder</h1>
           </section>
         </a>
         <a href = "https://github.com/evan-pieper">
