@@ -108,6 +108,16 @@
   font-weight: bolder;
 }
 
+#aboutMePic {
+  width: 100px;      /* Adjust the size as needed */
+  height: 100px;     /* Should be the same as width to create a circle */
+  border-radius: 50%; /* This creates the circular shape */
+  object-fit: cover;  /* Ensures the image covers the space without stretching */
+  border: 2px solid #ffffff; /* Optional: Adds a white border around the image */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+
 /*_______________________________Projects bellow__________________________________________*/
 
 
