@@ -9,13 +9,16 @@ This repository contains the source code for my personal portfolio built with Re
 * [License](#license)
 
 ## Description
-This repository contains the source code for my personal portfolio built with React. It showcases my projects and skills as a web developer and serves as a platform for employers to assess my candidacy for development roles
+As a web developer, having an up-to-date and engaging portfolio is essential. This project is a single-page application portfolio built using React. It includes various sections like 'About Me', 'Portfolio', 'Contact', and 'Resume' to provide a comprehensive overview of my work and background.
 
 ## Installation
 To install the application, clone the repository and run `npm install` to install dependencies. Run `npm start` to start the application.
 
 ## Usage
 The application is deployed at https://jamescbaldwin.github.io/week-20-REACT-portfolio/
+
+## Screenshots
+![Portfolio Screenshot](week-20-react-portfolio-demo.jpg "Portfolio Screenshot")
 
 ## Technologies
 * React
