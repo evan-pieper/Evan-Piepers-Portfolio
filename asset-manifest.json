@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/week-20-REACT-portfolio/static/css/main.0bc46607.css",
-    "main.js": "/week-20-REACT-portfolio/static/js/main.604c3e9e.js",
+    "main.js": "/week-20-REACT-portfolio/static/js/main.ef51770d.js",
     "static/js/787.30237536.chunk.js": "/week-20-REACT-portfolio/static/js/787.30237536.chunk.js",
     "static/media/aboutMePic.jpg": "/week-20-REACT-portfolio/static/media/aboutMePic.145e91635049ae4a1c31.jpg",
     "static/media/stackOverflowLogo.png": "/week-20-REACT-portfolio/static/media/stackOverflowLogo.c05942f9a7149335f4b8.png",
     "index.html": "/week-20-REACT-portfolio/index.html",
     "main.0bc46607.css.map": "/week-20-REACT-portfolio/static/css/main.0bc46607.css.map",
-    "main.604c3e9e.js.map": "/week-20-REACT-portfolio/static/js/main.604c3e9e.js.map",
+    "main.ef51770d.js.map": "/week-20-REACT-portfolio/static/js/main.ef51770d.js.map",
     "787.30237536.chunk.js.map": "/week-20-REACT-portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bc46607.css",
-    "static/js/main.604c3e9e.js"
+    "static/js/main.ef51770d.js"
   ]
 }
