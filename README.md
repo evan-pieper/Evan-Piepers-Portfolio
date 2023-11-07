@@ -15,7 +15,7 @@ As a web developer, having an up-to-date and engaging portfolio is essential. Th
 To install the application, clone the repository and run `npm install` to install dependencies. Run `npm start` to start the application.
 
 ## Usage
-The application is deployed at https://jamescbaldwin.github.io/week-20-REACT-portfolio/
+The application is deployed at https://evan-pieper.github.io/week-20-REACT-portfolio/ and can be accessed at that URL. The application can also be run locally by cloning the repository and running `npm start` to start the application.
 
 ## Screenshots
 ![Portfolio Screenshot](week-20-react-portfolio-demo.jpg "Portfolio Screenshot")

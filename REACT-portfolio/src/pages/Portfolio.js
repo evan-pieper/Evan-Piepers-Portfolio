@@ -24,7 +24,7 @@ function Portfolio() {
         </a>
       </div>
       <div className="right col">
-        <a href = "https://evan-pieper.github.io/Code-Quiz/">
+        <a href = "https://spellcast-d41ffbdf0b5f.herokuapp.com/">
           <section className = "card">
             <h1 className = "cardTag">Spell/Craft</h1>
           </section>
