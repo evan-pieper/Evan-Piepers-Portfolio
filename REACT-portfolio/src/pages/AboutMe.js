@@ -5,9 +5,11 @@ function AboutMe() {
         {/* placeholder for about me*/}
         <h2>About Me</h2>
         <img src={aboutMePic} alt="Evan Pieper's Headshot" className="picture" id = "aboutMePic"/>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <p>I'm a Full-stack web developer with a background in Environmental Science and Construction. From 2016-2021 I attended the University of California, Santa Barbara (UCSB) where I received a Bachelor of Science in Environmental Studies. While attending UCSB, I also studied Computer Science and Microbiology. After graduating, I continued to pursue my passion for coding. To this end, I joined a Full-stack web development coding bootcamp through the University of California, Berkely. </p>
+
+        <p>After being certified as a Full-stack developer, I continued to hone my skills through personal projects, and freelance web development. You can see examples of my work on the portfolio section of this website.</p>
+
+        <p>In addition to Full-stack development, I'm also passionate about both electronic and analog game development. I'm currently working on my first full-scale indie game tentatively titled “Nexus Clash”. Nexus Clash is a single player jrpg inspired card game. More info about the future of Nexus-Clash to come!</p>
       </section>
     );
 }
